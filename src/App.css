@@ -1,0 +1,32 @@
+.span-style {
+  font-size: 16px;
+  margin: 16px;
+  padding: 16px;
+  border: 1px solid blueviolet;
+  cursor: pointer;
+  margin-top: 32px;
+}
+ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+li {
+  list-style: none;
+}
+.profile-style {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 2rem 2rem 1rem;
+}
+
+.profile-style div:nth-child(2) {
+  color: mediumaquamarine;
+  border: 1px solid red;
+}
+.desc-style {
+  border: 1px solid red;
+  padding: 1rem;
+  margin: 2rem;
+  font-style: oblique;
+  color: teal;
+}
